@@ -71,6 +71,9 @@
 		7F8E083D21EF9CC8007B86B5 /* Ameiurus-melas */ = {
 			isa = PBXGroup;
 			children = (
+				7F8E085921EFAF67007B86B5 /* Utils */,
+				7F8E085821EFAF5E007B86B5 /* Scenes */,
+				7F8E085721EFAF4F007B86B5 /* Models */,
 				7F8E083E21EF9CC8007B86B5 /* Ameiurus_melas.h */,
 				7F8E083F21EF9CC8007B86B5 /* Info.plist */,
 			);
@@ -84,6 +87,27 @@
 				7F8E084B21EF9CC8007B86B5 /* Info.plist */,
 			);
 			path = "Ameiurus-melasTests";
+			sourceTree = "<group>";
+		};
+		7F8E085721EFAF4F007B86B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7F8E085821EFAF5E007B86B5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		7F8E085921EFAF67007B86B5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
