@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28595A78859D2DFFFCAB201A /* libPods-Ameiurus-melas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AD38984FD02CDF3FE61779 /* libPods-Ameiurus-melas.a */; };
+		5C144E8FD730B562AC49FE3C /* libPods-Ameiurus-melasTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB2B091682615909FE8891F /* libPods-Ameiurus-melasTests.a */; };
 		7F8E084521EF9CC8007B86B5 /* Ameiurus_melas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8E083B21EF9CC8007B86B5 /* Ameiurus_melas.framework */; };
 		7F8E084A21EF9CC8007B86B5 /* Ameiurus_melasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E084921EF9CC8007B86B5 /* Ameiurus_melasTests.swift */; };
 		7F8E084C21EF9CC8007B86B5 /* Ameiurus_melas.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8E083E21EF9CC8007B86B5 /* Ameiurus_melas.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,12 +25,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CB2B091682615909FE8891F /* libPods-Ameiurus-melasTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ameiurus-melasTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		487CE22A272F344C925D9258 /* Pods-Ameiurus-melasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ameiurus-melasTests.debug.xcconfig"; path = "Target Support Files/Pods-Ameiurus-melasTests/Pods-Ameiurus-melasTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F8E083B21EF9CC8007B86B5 /* Ameiurus_melas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ameiurus_melas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8E083E21EF9CC8007B86B5 /* Ameiurus_melas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ameiurus_melas.h; sourceTree = "<group>"; };
 		7F8E083F21EF9CC8007B86B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F8E084421EF9CC8007B86B5 /* Ameiurus-melasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ameiurus-melasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8E084921EF9CC8007B86B5 /* Ameiurus_melasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ameiurus_melasTests.swift; sourceTree = "<group>"; };
 		7F8E084B21EF9CC8007B86B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84778867A4A8B1AA8F3F5B5E /* Pods-Ameiurus-melasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ameiurus-melasTests.release.xcconfig"; path = "Target Support Files/Pods-Ameiurus-melasTests/Pods-Ameiurus-melasTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8AD38984FD02CDF3FE61779 /* libPods-Ameiurus-melas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ameiurus-melas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1EDC899A711544AD62C37C3 /* Pods-Ameiurus-melas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ameiurus-melas.debug.xcconfig"; path = "Target Support Files/Pods-Ameiurus-melas/Pods-Ameiurus-melas.debug.xcconfig"; sourceTree = "<group>"; };
+		F36521388F6022260CA4CF72 /* Pods-Ameiurus-melas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ameiurus-melas.release.xcconfig"; path = "Target Support Files/Pods-Ameiurus-melas/Pods-Ameiurus-melas.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28595A78859D2DFFFCAB201A /* libPods-Ameiurus-melas.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F8E084521EF9CC8007B86B5 /* Ameiurus_melas.framework in Frameworks */,
+				5C144E8FD730B562AC49FE3C /* libPods-Ameiurus-melasTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18EC2A103A3ED00D2B1D8A8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1EDC899A711544AD62C37C3 /* Pods-Ameiurus-melas.debug.xcconfig */,
+				F36521388F6022260CA4CF72 /* Pods-Ameiurus-melas.release.xcconfig */,
+				487CE22A272F344C925D9258 /* Pods-Ameiurus-melasTests.debug.xcconfig */,
+				84778867A4A8B1AA8F3F5B5E /* Pods-Ameiurus-melasTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		33964770424AA61CD65308D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8AD38984FD02CDF3FE61779 /* libPods-Ameiurus-melas.a */,
+				1CB2B091682615909FE8891F /* libPods-Ameiurus-melasTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7F8E083121EF9CC8007B86B5 = {
 			isa = PBXGroup;
 			children = (
 				7F8E083D21EF9CC8007B86B5 /* Ameiurus-melas */,
 				7F8E084821EF9CC8007B86B5 /* Ameiurus-melasTests */,
 				7F8E083C21EF9CC8007B86B5 /* Products */,
+				18EC2A103A3ED00D2B1D8A8B /* Pods */,
+				33964770424AA61CD65308D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +161,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F8E084F21EF9CC8007B86B5 /* Build configuration list for PBXNativeTarget "Ameiurus-melas" */;
 			buildPhases = (
+				D84DB0C7A5B35FEE017A8634 /* [CP] Check Pods Manifest.lock */,
 				7F8E083621EF9CC8007B86B5 /* Headers */,
 				7F8E083721EF9CC8007B86B5 /* Sources */,
 				7F8E083821EF9CC8007B86B5 /* Frameworks */,
@@ -146,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F8E085221EF9CC8007B86B5 /* Build configuration list for PBXNativeTarget "Ameiurus-melasTests" */;
 			buildPhases = (
+				14E826FA352B0ED26B53BE31 /* [CP] Check Pods Manifest.lock */,
 				7F8E084021EF9CC8007B86B5 /* Sources */,
 				7F8E084121EF9CC8007B86B5 /* Frameworks */,
 				7F8E084221EF9CC8007B86B5 /* Resources */,
@@ -212,6 +247,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14E826FA352B0ED26B53BE31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ameiurus-melasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D84DB0C7A5B35FEE017A8634 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ameiurus-melas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F8E083721EF9CC8007B86B5 /* Sources */ = {
@@ -364,6 +446,7 @@
 		};
 		7F8E085021EF9CC8007B86B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1EDC899A711544AD62C37C3 /* Pods-Ameiurus-melas.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -388,6 +471,7 @@
 		};
 		7F8E085121EF9CC8007B86B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36521388F6022260CA4CF72 /* Pods-Ameiurus-melas.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -412,6 +496,7 @@
 		};
 		7F8E085321EF9CC8007B86B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487CE22A272F344C925D9258 /* Pods-Ameiurus-melasTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Ameiurus-melasTests/Info.plist";
@@ -429,6 +514,7 @@
 		};
 		7F8E085421EF9CC8007B86B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84778867A4A8B1AA8F3F5B5E /* Pods-Ameiurus-melasTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Ameiurus-melasTests/Info.plist";
