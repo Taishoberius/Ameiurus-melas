@@ -7,21 +7,20 @@
 //
 
 import XCTest
+import Alamofire
 @testable import Ameiurus_melas
 
 class Ameiurus_melasTests: XCTestCase {
-
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let query = DialogFlowQuery(lang: "fr", sessionId: "azertyuiop", query: "coucou")
+        Alamofire.request("https://api.dialogflow.com/v1/", method: .post, parameters: query.toJson(), encoding: JSONEncoding.default, headers: ["Authorization": "0ea8f922a2104e608b234fd645defadc"]).responseJSON {
+            switch $0.result {
+            case .success(let json):
+                print(json)
+            case .failure(_):
+                print("failed")
+            }
+        }
     }
 
     func testPerformanceExample() {

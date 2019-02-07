@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28595A78859D2DFFFCAB201A /* libPods-Ameiurus-melas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AD38984FD02CDF3FE61779 /* libPods-Ameiurus-melas.a */; };
-		5C144E8FD730B562AC49FE3C /* libPods-Ameiurus-melasTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB2B091682615909FE8891F /* libPods-Ameiurus-melasTests.a */; };
+		2987362BC7B62BBE0B67CCB0 /* Pods_Ameiurus_melasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA03A3E1EB0E698D7DB4A0D /* Pods_Ameiurus_melasTests.framework */; };
+		7F07BCD7220C2901003F62C3 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07BCD6220C2901003F62C3 /* Endpoint.swift */; };
+		7F3B72FB2209F35B00F5E67F /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B72FA2209F35B00F5E67F /* Api.swift */; };
+		7F3B73002209F4EE00F5E67F /* DialogFlowApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B72FF2209F4EE00F5E67F /* DialogFlowApi.swift */; };
+		7F3B73022209F62A00F5E67F /* DialogFlowVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B73012209F62A00F5E67F /* DialogFlowVersion.swift */; };
+		7F3B73042209F69900F5E67F /* DialogFlowQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B73032209F69900F5E67F /* DialogFlowQuery.swift */; };
 		7F8E084521EF9CC8007B86B5 /* Ameiurus_melas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8E083B21EF9CC8007B86B5 /* Ameiurus_melas.framework */; };
 		7F8E084A21EF9CC8007B86B5 /* Ameiurus_melasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E084921EF9CC8007B86B5 /* Ameiurus_melasTests.swift */; };
 		7F8E084C21EF9CC8007B86B5 /* Ameiurus_melas.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8E083E21EF9CC8007B86B5 /* Ameiurus_melas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AC98E3F108C6BF263A3388A /* Pods_Ameiurus_melas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A392E67891D275B088A074E /* Pods_Ameiurus_melas.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,8 +30,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CB2B091682615909FE8891F /* libPods-Ameiurus-melasTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ameiurus-melasTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		487CE22A272F344C925D9258 /* Pods-Ameiurus-melasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ameiurus-melasTests.debug.xcconfig"; path = "Target Support Files/Pods-Ameiurus-melasTests/Pods-Ameiurus-melasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BA03A3E1EB0E698D7DB4A0D /* Pods_Ameiurus_melasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ameiurus_melasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F07BCD6220C2901003F62C3 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		7F3B72FA2209F35B00F5E67F /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		7F3B72FF2209F4EE00F5E67F /* DialogFlowApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogFlowApi.swift; sourceTree = "<group>"; };
+		7F3B73012209F62A00F5E67F /* DialogFlowVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogFlowVersion.swift; sourceTree = "<group>"; };
+		7F3B73032209F69900F5E67F /* DialogFlowQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogFlowQuery.swift; sourceTree = "<group>"; };
 		7F8E083B21EF9CC8007B86B5 /* Ameiurus_melas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ameiurus_melas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8E083E21EF9CC8007B86B5 /* Ameiurus_melas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ameiurus_melas.h; sourceTree = "<group>"; };
 		7F8E083F21EF9CC8007B86B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,7 +44,7 @@
 		7F8E084921EF9CC8007B86B5 /* Ameiurus_melasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ameiurus_melasTests.swift; sourceTree = "<group>"; };
 		7F8E084B21EF9CC8007B86B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84778867A4A8B1AA8F3F5B5E /* Pods-Ameiurus-melasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ameiurus-melasTests.release.xcconfig"; path = "Target Support Files/Pods-Ameiurus-melasTests/Pods-Ameiurus-melasTests.release.xcconfig"; sourceTree = "<group>"; };
-		A8AD38984FD02CDF3FE61779 /* libPods-Ameiurus-melas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ameiurus-melas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A392E67891D275B088A074E /* Pods_Ameiurus_melas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ameiurus_melas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EDC899A711544AD62C37C3 /* Pods-Ameiurus-melas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ameiurus-melas.debug.xcconfig"; path = "Target Support Files/Pods-Ameiurus-melas/Pods-Ameiurus-melas.debug.xcconfig"; sourceTree = "<group>"; };
 		F36521388F6022260CA4CF72 /* Pods-Ameiurus-melas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ameiurus-melas.release.xcconfig"; path = "Target Support Files/Pods-Ameiurus-melas/Pods-Ameiurus-melas.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28595A78859D2DFFFCAB201A /* libPods-Ameiurus-melas.a in Frameworks */,
+				8AC98E3F108C6BF263A3388A /* Pods_Ameiurus_melas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F8E084521EF9CC8007B86B5 /* Ameiurus_melas.framework in Frameworks */,
-				5C144E8FD730B562AC49FE3C /* libPods-Ameiurus-melasTests.a in Frameworks */,
+				2987362BC7B62BBE0B67CCB0 /* Pods_Ameiurus_melasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,17 +78,43 @@
 				487CE22A272F344C925D9258 /* Pods-Ameiurus-melasTests.debug.xcconfig */,
 				84778867A4A8B1AA8F3F5B5E /* Pods-Ameiurus-melasTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		33964770424AA61CD65308D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A8AD38984FD02CDF3FE61779 /* libPods-Ameiurus-melas.a */,
-				1CB2B091682615909FE8891F /* libPods-Ameiurus-melasTests.a */,
+				9A392E67891D275B088A074E /* Pods_Ameiurus_melas.framework */,
+				7BA03A3E1EB0E698D7DB4A0D /* Pods_Ameiurus_melasTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F3B72F82209F34600F5E67F /* Definition */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B72FA2209F35B00F5E67F /* Api.swift */,
+				7F07BCD6220C2901003F62C3 /* Endpoint.swift */,
+			);
+			path = Definition;
+			sourceTree = "<group>";
+		};
+		7F3B72F92209F34E00F5E67F /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B72FE2209F4DD00F5E67F /* DialogFlow */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		7F3B72FE2209F4DD00F5E67F /* DialogFlow */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B73012209F62A00F5E67F /* DialogFlowVersion.swift */,
+				7F3B72FF2209F4EE00F5E67F /* DialogFlowApi.swift */,
+				7F3B73032209F69900F5E67F /* DialogFlowQuery.swift */,
+			);
+			path = DialogFlow;
 			sourceTree = "<group>";
 		};
 		7F8E083121EF9CC8007B86B5 = {
@@ -125,6 +161,8 @@
 		7F8E085721EFAF4F007B86B5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7F3B72F92209F34E00F5E67F /* Implementation */,
+				7F3B72F82209F34600F5E67F /* Definition */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -184,6 +222,7 @@
 				7F8E084021EF9CC8007B86B5 /* Sources */,
 				7F8E084121EF9CC8007B86B5 /* Frameworks */,
 				7F8E084221EF9CC8007B86B5 /* Resources */,
+				682804B78002FDBF3F11377E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,6 +246,7 @@
 				TargetAttributes = {
 					7F8E083A21EF9CC8007B86B5 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					7F8E084321EF9CC8007B86B5 = {
 						CreatedOnToolsVersion = 10.1;
@@ -271,6 +311,32 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		682804B78002FDBF3F11377E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ameiurus-melasTests/Pods-Ameiurus-melasTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Toolbar/Toolbar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toolbar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ameiurus-melasTests/Pods-Ameiurus-melasTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D84DB0C7A5B35FEE017A8634 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,6 +366,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F3B73022209F62A00F5E67F /* DialogFlowVersion.swift in Sources */,
+				7F3B73002209F4EE00F5E67F /* DialogFlowApi.swift in Sources */,
+				7F3B73042209F69900F5E67F /* DialogFlowQuery.swift in Sources */,
+				7F3B72FB2209F35B00F5E67F /* Api.swift in Sources */,
+				7F07BCD7220C2901003F62C3 /* Endpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1EDC899A711544AD62C37C3 /* Pods-Ameiurus-melas.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -464,6 +536,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Esgi.Ameiurus-melas";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -473,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F36521388F6022260CA4CF72 /* Pods-Ameiurus-melas.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -498,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 487CE22A272F344C925D9258 /* Pods-Ameiurus-melasTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Ameiurus-melasTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -516,6 +591,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84778867A4A8B1AA8F3F5B5E /* Pods-Ameiurus-melasTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Ameiurus-melasTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
