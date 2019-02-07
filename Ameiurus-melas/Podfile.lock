@@ -1,28 +1,24 @@
 PODS:
-  - Alamofire (4.8.0)
-  - ReverseExtension (0.5.0)
+  - Alamofire (4.8.1)
   - SnapKit (4.0.1)
   - Toolbar (0.5.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
-  - ReverseExtension
   - SnapKit (~> 4.0.0)
   - Toolbar
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
-    - ReverseExtension
     - SnapKit
     - Toolbar
 
 SPEC CHECKSUMS:
-  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
-  ReverseExtension: 21c8dd4e767f93b56fb97d873686d24160f83945
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
   Toolbar: 240546f9a531266f639b713994b8b9eb7bb3391b
 
-PODFILE CHECKSUM: 33d763f9316e20e464d3a1632783d8f4e2c02ca5
+PODFILE CHECKSUM: 5fc7121f3fb331741717670c2391290273a0e2ba
 
 COCOAPODS: 1.6.0.beta.2
