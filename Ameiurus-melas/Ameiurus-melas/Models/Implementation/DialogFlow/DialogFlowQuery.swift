@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct DialogFlowQuery: Codable {
+struct DialogFlowQuery: Codable, JSONModel {
     let lang: String
     let sessionId: String
     let query: String

@@ -7,9 +7,11 @@
 //
 
 import Foundation
+import Alamofire
 
 protocol Api {
     var baseUrl: String { get set }
     var accessToken: String { get set }
-    var endpoints: [Endpoint] { get set }
+    var endpoints: [String : Endpoint] { get set }
+    func call(endpoint: Endpoint, callback: @escaping (BotResponse) -> Void)
 }

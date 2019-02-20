@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		2987362BC7B62BBE0B67CCB0 /* Pods_Ameiurus_melasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA03A3E1EB0E698D7DB4A0D /* Pods_Ameiurus_melasTests.framework */; };
 		7F07BCD7220C2901003F62C3 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07BCD6220C2901003F62C3 /* Endpoint.swift */; };
+		7F07BCDB220C48E5003F62C3 /* DialogFlowEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07BCDA220C48E5003F62C3 /* DialogFlowEndpoint.swift */; };
+		7F07BCDD220C4C00003F62C3 /* JSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07BCDC220C4C00003F62C3 /* JSONModel.swift */; };
+		7F07BCDF220C515C003F62C3 /* LanguageTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07BCDE220C515C003F62C3 /* LanguageTag.swift */; };
 		7F3B72FB2209F35B00F5E67F /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B72FA2209F35B00F5E67F /* Api.swift */; };
 		7F3B73002209F4EE00F5E67F /* DialogFlowApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B72FF2209F4EE00F5E67F /* DialogFlowApi.swift */; };
 		7F3B73022209F62A00F5E67F /* DialogFlowVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B73012209F62A00F5E67F /* DialogFlowVersion.swift */; };
 		7F3B73042209F69900F5E67F /* DialogFlowQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B73032209F69900F5E67F /* DialogFlowQuery.swift */; };
+		7F8AE1C9221CC93800F540C2 /* DialogFlowContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1C2221CC93800F540C2 /* DialogFlowContext.swift */; };
+		7F8AE1CA221CC93800F540C2 /* DialogFlowResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1C3221CC93800F540C2 /* DialogFlowResponse.swift */; };
+		7F8AE1CB221CC93800F540C2 /* DialogFlowResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1C4221CC93800F540C2 /* DialogFlowResult.swift */; };
+		7F8AE1CC221CC93800F540C2 /* DialogFlowStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1C5221CC93800F540C2 /* DialogFlowStatus.swift */; };
+		7F8AE1CF221CC93800F540C2 /* DialogFlowMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1C8221CC93800F540C2 /* DialogFlowMetadata.swift */; };
 		7F8E084521EF9CC8007B86B5 /* Ameiurus_melas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8E083B21EF9CC8007B86B5 /* Ameiurus_melas.framework */; };
 		7F8E084A21EF9CC8007B86B5 /* Ameiurus_melasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E084921EF9CC8007B86B5 /* Ameiurus_melasTests.swift */; };
 		7F8E084C21EF9CC8007B86B5 /* Ameiurus_melas.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8E083E21EF9CC8007B86B5 /* Ameiurus_melas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FC401BE220C9B69003845C2 /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC401BD220C9B69003845C2 /* BotResponse.swift */; };
 		8AC98E3F108C6BF263A3388A /* Pods_Ameiurus_melas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A392E67891D275B088A074E /* Pods_Ameiurus_melas.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,16 +42,25 @@
 		487CE22A272F344C925D9258 /* Pods-Ameiurus-melasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ameiurus-melasTests.debug.xcconfig"; path = "Target Support Files/Pods-Ameiurus-melasTests/Pods-Ameiurus-melasTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7BA03A3E1EB0E698D7DB4A0D /* Pods_Ameiurus_melasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ameiurus_melasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F07BCD6220C2901003F62C3 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		7F07BCDA220C48E5003F62C3 /* DialogFlowEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogFlowEndpoint.swift; sourceTree = "<group>"; };
+		7F07BCDC220C4C00003F62C3 /* JSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModel.swift; sourceTree = "<group>"; };
+		7F07BCDE220C515C003F62C3 /* LanguageTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTag.swift; sourceTree = "<group>"; };
 		7F3B72FA2209F35B00F5E67F /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		7F3B72FF2209F4EE00F5E67F /* DialogFlowApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogFlowApi.swift; sourceTree = "<group>"; };
 		7F3B73012209F62A00F5E67F /* DialogFlowVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogFlowVersion.swift; sourceTree = "<group>"; };
 		7F3B73032209F69900F5E67F /* DialogFlowQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogFlowQuery.swift; sourceTree = "<group>"; };
+		7F8AE1C2221CC93800F540C2 /* DialogFlowContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogFlowContext.swift; sourceTree = "<group>"; };
+		7F8AE1C3221CC93800F540C2 /* DialogFlowResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogFlowResponse.swift; sourceTree = "<group>"; };
+		7F8AE1C4221CC93800F540C2 /* DialogFlowResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogFlowResult.swift; sourceTree = "<group>"; };
+		7F8AE1C5221CC93800F540C2 /* DialogFlowStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogFlowStatus.swift; sourceTree = "<group>"; };
+		7F8AE1C8221CC93800F540C2 /* DialogFlowMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogFlowMetadata.swift; sourceTree = "<group>"; };
 		7F8E083B21EF9CC8007B86B5 /* Ameiurus_melas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ameiurus_melas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8E083E21EF9CC8007B86B5 /* Ameiurus_melas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ameiurus_melas.h; sourceTree = "<group>"; };
 		7F8E083F21EF9CC8007B86B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F8E084421EF9CC8007B86B5 /* Ameiurus-melasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ameiurus-melasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8E084921EF9CC8007B86B5 /* Ameiurus_melasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ameiurus_melasTests.swift; sourceTree = "<group>"; };
 		7F8E084B21EF9CC8007B86B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC401BD220C9B69003845C2 /* BotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotResponse.swift; sourceTree = "<group>"; };
 		84778867A4A8B1AA8F3F5B5E /* Pods-Ameiurus-melasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ameiurus-melasTests.release.xcconfig"; path = "Target Support Files/Pods-Ameiurus-melasTests/Pods-Ameiurus-melasTests.release.xcconfig"; sourceTree = "<group>"; };
 		9A392E67891D275B088A074E /* Pods_Ameiurus_melas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ameiurus_melas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EDC899A711544AD62C37C3 /* Pods-Ameiurus-melas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ameiurus-melas.debug.xcconfig"; path = "Target Support Files/Pods-Ameiurus-melas/Pods-Ameiurus-melas.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +113,7 @@
 			children = (
 				7F3B72FA2209F35B00F5E67F /* Api.swift */,
 				7F07BCD6220C2901003F62C3 /* Endpoint.swift */,
+				7F07BCDC220C4C00003F62C3 /* JSONModel.swift */,
 			);
 			path = Definition;
 			sourceTree = "<group>";
@@ -102,6 +121,7 @@
 		7F3B72F92209F34E00F5E67F /* Implementation */ = {
 			isa = PBXGroup;
 			children = (
+				7FC401BD220C9B69003845C2 /* BotResponse.swift */,
 				7F3B72FE2209F4DD00F5E67F /* DialogFlow */,
 			);
 			path = Implementation;
@@ -110,9 +130,16 @@
 		7F3B72FE2209F4DD00F5E67F /* DialogFlow */ = {
 			isa = PBXGroup;
 			children = (
+				7F8AE1C2221CC93800F540C2 /* DialogFlowContext.swift */,
+				7F8AE1C8221CC93800F540C2 /* DialogFlowMetadata.swift */,
+				7F8AE1C3221CC93800F540C2 /* DialogFlowResponse.swift */,
+				7F8AE1C4221CC93800F540C2 /* DialogFlowResult.swift */,
+				7F8AE1C5221CC93800F540C2 /* DialogFlowStatus.swift */,
 				7F3B73012209F62A00F5E67F /* DialogFlowVersion.swift */,
 				7F3B72FF2209F4EE00F5E67F /* DialogFlowApi.swift */,
 				7F3B73032209F69900F5E67F /* DialogFlowQuery.swift */,
+				7F07BCDA220C48E5003F62C3 /* DialogFlowEndpoint.swift */,
+				7F07BCDE220C515C003F62C3 /* LanguageTag.swift */,
 			);
 			path = DialogFlow;
 			sourceTree = "<group>";
@@ -366,11 +393,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F07BCDB220C48E5003F62C3 /* DialogFlowEndpoint.swift in Sources */,
+				7F8AE1CC221CC93800F540C2 /* DialogFlowStatus.swift in Sources */,
+				7F8AE1C9221CC93800F540C2 /* DialogFlowContext.swift in Sources */,
 				7F3B73022209F62A00F5E67F /* DialogFlowVersion.swift in Sources */,
+				7FC401BE220C9B69003845C2 /* BotResponse.swift in Sources */,
+				7F8AE1CB221CC93800F540C2 /* DialogFlowResult.swift in Sources */,
 				7F3B73002209F4EE00F5E67F /* DialogFlowApi.swift in Sources */,
 				7F3B73042209F69900F5E67F /* DialogFlowQuery.swift in Sources */,
+				7F8AE1CA221CC93800F540C2 /* DialogFlowResponse.swift in Sources */,
+				7F07BCDF220C515C003F62C3 /* LanguageTag.swift in Sources */,
+				7F07BCDD220C4C00003F62C3 /* JSONModel.swift in Sources */,
 				7F3B72FB2209F35B00F5E67F /* Api.swift in Sources */,
 				7F07BCD7220C2901003F62C3 /* Endpoint.swift in Sources */,
+				7F8AE1CF221CC93800F540C2 /* DialogFlowMetadata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
