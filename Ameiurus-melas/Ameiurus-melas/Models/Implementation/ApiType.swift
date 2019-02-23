@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+enum ApiType {
+    case dialogflow
+    case other
+}

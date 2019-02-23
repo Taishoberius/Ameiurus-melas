@@ -16,18 +16,15 @@ struct DialogFlowApi: Api {
     var version: DialogFlowVersion
     var lang: LanguageTag
     let sessionId = UUID().uuidString
+    let queryEndpoint: DialogFlowEndpoint
 
     init(version: DialogFlowVersion, accessToken: String, lang: LanguageTag) {
         self.accessToken = accessToken
         self.version = version
         self.baseUrl = "https://api.dialogflow.com/\(version.rawValue)/"
         self.lang = lang
-    }
-
-    public func callQuery(userQuery: DialogFlowQuery, callback: @escaping (BotResponse) -> Void) {
-        call(endpoint: DialogFlowEndpoint.init(parameters: userQuery, method: .post, url: "query")) { (response) in
-            callback(response)
-        }
+        let query = DialogFlowQuery.init(lang: lang.rawValue, sessionId: sessionId, query: "")
+        self.queryEndpoint = DialogFlowEndpoint.init(parameters: query, method: .post, url: "query")
     }
 
     public func call(endpoint: Endpoint, callback: @escaping (BotResponse) -> Void) {
