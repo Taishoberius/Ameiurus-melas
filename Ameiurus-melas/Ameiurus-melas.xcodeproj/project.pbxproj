@@ -21,6 +21,10 @@
 		7F8AE1CB221CC93800F540C2 /* DialogFlowResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1C4221CC93800F540C2 /* DialogFlowResult.swift */; };
 		7F8AE1CC221CC93800F540C2 /* DialogFlowStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1C5221CC93800F540C2 /* DialogFlowStatus.swift */; };
 		7F8AE1CF221CC93800F540C2 /* DialogFlowMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1C8221CC93800F540C2 /* DialogFlowMetadata.swift */; };
+		7F8AE1D32221735600F540C2 /* Ameiurus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1D22221735600F540C2 /* Ameiurus.swift */; };
+		7F8AE1D522217CE300F540C2 /* ApiType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1D422217CE300F540C2 /* ApiType.swift */; };
+		7F8AE1D82221929300F540C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1D62221929300F540C2 /* ViewController.swift */; };
+		7F8AE1D92221929300F540C2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F8AE1D72221929300F540C2 /* ViewController.xib */; };
 		7F8E084521EF9CC8007B86B5 /* Ameiurus_melas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8E083B21EF9CC8007B86B5 /* Ameiurus_melas.framework */; };
 		7F8E084A21EF9CC8007B86B5 /* Ameiurus_melasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E084921EF9CC8007B86B5 /* Ameiurus_melasTests.swift */; };
 		7F8E084C21EF9CC8007B86B5 /* Ameiurus_melas.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8E083E21EF9CC8007B86B5 /* Ameiurus_melas.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -54,6 +58,10 @@
 		7F8AE1C4221CC93800F540C2 /* DialogFlowResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogFlowResult.swift; sourceTree = "<group>"; };
 		7F8AE1C5221CC93800F540C2 /* DialogFlowStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogFlowStatus.swift; sourceTree = "<group>"; };
 		7F8AE1C8221CC93800F540C2 /* DialogFlowMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogFlowMetadata.swift; sourceTree = "<group>"; };
+		7F8AE1D22221735600F540C2 /* Ameiurus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ameiurus.swift; sourceTree = "<group>"; };
+		7F8AE1D422217CE300F540C2 /* ApiType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiType.swift; sourceTree = "<group>"; };
+		7F8AE1D62221929300F540C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F8AE1D72221929300F540C2 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		7F8E083B21EF9CC8007B86B5 /* Ameiurus_melas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ameiurus_melas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8E083E21EF9CC8007B86B5 /* Ameiurus_melas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ameiurus_melas.h; sourceTree = "<group>"; };
 		7F8E083F21EF9CC8007B86B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -121,8 +129,10 @@
 		7F3B72F92209F34E00F5E67F /* Implementation */ = {
 			isa = PBXGroup;
 			children = (
+				7F8AE1D22221735600F540C2 /* Ameiurus.swift */,
 				7FC401BD220C9B69003845C2 /* BotResponse.swift */,
 				7F3B72FE2209F4DD00F5E67F /* DialogFlow */,
+				7F8AE1D422217CE300F540C2 /* ApiType.swift */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -197,6 +207,8 @@
 		7F8E085821EFAF5E007B86B5 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				7F8AE1D62221929300F540C2 /* ViewController.swift */,
+				7F8AE1D72221929300F540C2 /* ViewController.xib */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -303,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F8AE1D92221929300F540C2 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,9 +410,12 @@
 				7F8AE1CC221CC93800F540C2 /* DialogFlowStatus.swift in Sources */,
 				7F8AE1C9221CC93800F540C2 /* DialogFlowContext.swift in Sources */,
 				7F3B73022209F62A00F5E67F /* DialogFlowVersion.swift in Sources */,
+				7F8AE1D522217CE300F540C2 /* ApiType.swift in Sources */,
 				7FC401BE220C9B69003845C2 /* BotResponse.swift in Sources */,
 				7F8AE1CB221CC93800F540C2 /* DialogFlowResult.swift in Sources */,
+				7F8AE1D32221735600F540C2 /* Ameiurus.swift in Sources */,
 				7F3B73002209F4EE00F5E67F /* DialogFlowApi.swift in Sources */,
+				7F8AE1D82221929300F540C2 /* ViewController.swift in Sources */,
 				7F3B73042209F69900F5E67F /* DialogFlowQuery.swift in Sources */,
 				7F8AE1CA221CC93800F540C2 /* DialogFlowResponse.swift in Sources */,
 				7F07BCDF220C515C003F62C3 /* LanguageTag.swift in Sources */,
