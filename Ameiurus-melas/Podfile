@@ -14,7 +14,7 @@ target 'Ameiurus-melas' do
   #Send Message TextInput
   pod 'Toolbar'
   #Messages TableView
- # pod 'ReverseExtension'
+  #pod 'ReverseExtension'
 
 
 
@@ -23,6 +23,11 @@ end
 target 'Ameiurus-melasTests' do
 
   use_frameworks!
- pod 'Alamofire', '~> 4.7'
+  pod 'Alamofire', '~> 4.7'
   # Pods for testing
+end
+
+target 'SampleAmeiurus' do
+  use_frameworks
+
 end
