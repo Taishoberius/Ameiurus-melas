@@ -1,5 +1,5 @@
 //
-//  Endpoint.swift
+//  DialogFlowEndpoint.swift
 //  Ameiurus-melas
 //
 //  Created by David Linhares on 07/02/2019.
@@ -9,8 +9,8 @@
 import Foundation
 import Alamofire
 
-protocol Endpoint {
-    var url: String { get set }
-    var parameters: JSONModel { get set }
-    var method: HTTPMethod { get set }
+struct DialogFlowEndpoint: Endpoint {
+    var parameters: JSONModel
+    var method: HTTPMethod
+    var url: String
 }

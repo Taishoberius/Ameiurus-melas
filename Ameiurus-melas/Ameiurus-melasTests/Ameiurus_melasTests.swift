@@ -12,15 +12,7 @@ import Alamofire
 
 class Ameiurus_melasTests: XCTestCase {
     func testExample() {
-        let query = DialogFlowQuery(lang: "fr", sessionId: "azertyuiop", query: "coucou")
-        Alamofire.request("https://api.dialogflow.com/v1/", method: .post, parameters: query.toJson(), encoding: JSONEncoding.default, headers: ["Authorization": "0ea8f922a2104e608b234fd645defadc"]).responseJSON {
-            switch $0.result {
-            case .success(let json):
-                print(json)
-            case .failure(_):
-                print("failed")
-            }
-        }
+        let bot = Ameiurus(api: DialogFlowApi(version: .V1, accessToken: "098f4c5e9e574073b9dcb3426522142d", lang: .fr))
     }
 
     func testPerformanceExample() {
