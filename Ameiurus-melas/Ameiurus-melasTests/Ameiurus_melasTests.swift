@@ -12,6 +12,7 @@ import Alamofire
 
 class Ameiurus_melasTests: XCTestCase {
     func testExample() {
+        let bot = Ameiurus(api: DialogFlowApi(version: .V1, accessToken: "098f4c5e9e574073b9dcb3426522142d", lang: .fr))
     }
 
     func testPerformanceExample() {

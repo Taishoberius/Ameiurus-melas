@@ -12,6 +12,14 @@
 		7F07BCDB220C48E5003F62C3 /* DialogFlowEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07BCDA220C48E5003F62C3 /* DialogFlowEndpoint.swift */; };
 		7F07BCDD220C4C00003F62C3 /* JSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07BCDC220C4C00003F62C3 /* JSONModel.swift */; };
 		7F07BCDF220C515C003F62C3 /* LanguageTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07BCDE220C515C003F62C3 /* LanguageTag.swift */; };
+		7F1C270822230FD300E1E798 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1C270122230FD300E1E798 /* ChatViewController.swift */; };
+		7F1C270922230FD300E1E798 /* ServerMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1C270222230FD300E1E798 /* ServerMessageCell.swift */; };
+		7F1C270A22230FD300E1E798 /* UserMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F1C270322230FD300E1E798 /* UserMessageCell.xib */; };
+		7F1C270B22230FD300E1E798 /* ServerMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F1C270422230FD300E1E798 /* ServerMessageCell.xib */; };
+		7F1C270C22230FD300E1E798 /* UserMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1C270522230FD300E1E798 /* UserMessageCell.swift */; };
+		7F1C270D22230FD300E1E798 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1C270622230FD300E1E798 /* Message.swift */; };
+		7F1C270E22230FD300E1E798 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F1C270722230FD300E1E798 /* ChatViewController.xib */; };
+		7F1C271022231DC900E1E798 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1C270F22231DC900E1E798 /* Media.xcassets */; };
 		7F3B72FB2209F35B00F5E67F /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B72FA2209F35B00F5E67F /* Api.swift */; };
 		7F3B73002209F4EE00F5E67F /* DialogFlowApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B72FF2209F4EE00F5E67F /* DialogFlowApi.swift */; };
 		7F3B73022209F62A00F5E67F /* DialogFlowVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B73012209F62A00F5E67F /* DialogFlowVersion.swift */; };
@@ -23,8 +31,6 @@
 		7F8AE1CF221CC93800F540C2 /* DialogFlowMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1C8221CC93800F540C2 /* DialogFlowMetadata.swift */; };
 		7F8AE1D32221735600F540C2 /* Ameiurus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1D22221735600F540C2 /* Ameiurus.swift */; };
 		7F8AE1D522217CE300F540C2 /* ApiType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1D422217CE300F540C2 /* ApiType.swift */; };
-		7F8AE1D82221929300F540C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1D62221929300F540C2 /* ViewController.swift */; };
-		7F8AE1D92221929300F540C2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F8AE1D72221929300F540C2 /* ViewController.xib */; };
 		7F8E084521EF9CC8007B86B5 /* Ameiurus_melas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8E083B21EF9CC8007B86B5 /* Ameiurus_melas.framework */; };
 		7F8E084A21EF9CC8007B86B5 /* Ameiurus_melasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E084921EF9CC8007B86B5 /* Ameiurus_melasTests.swift */; };
 		7F8E084C21EF9CC8007B86B5 /* Ameiurus_melas.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8E083E21EF9CC8007B86B5 /* Ameiurus_melas.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,6 +55,14 @@
 		7F07BCDA220C48E5003F62C3 /* DialogFlowEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogFlowEndpoint.swift; sourceTree = "<group>"; };
 		7F07BCDC220C4C00003F62C3 /* JSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModel.swift; sourceTree = "<group>"; };
 		7F07BCDE220C515C003F62C3 /* LanguageTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTag.swift; sourceTree = "<group>"; };
+		7F1C270122230FD300E1E798 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		7F1C270222230FD300E1E798 /* ServerMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerMessageCell.swift; sourceTree = "<group>"; };
+		7F1C270322230FD300E1E798 /* UserMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserMessageCell.xib; sourceTree = "<group>"; };
+		7F1C270422230FD300E1E798 /* ServerMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServerMessageCell.xib; sourceTree = "<group>"; };
+		7F1C270522230FD300E1E798 /* UserMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMessageCell.swift; sourceTree = "<group>"; };
+		7F1C270622230FD300E1E798 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7F1C270722230FD300E1E798 /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		7F1C270F22231DC900E1E798 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		7F3B72FA2209F35B00F5E67F /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		7F3B72FF2209F4EE00F5E67F /* DialogFlowApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogFlowApi.swift; sourceTree = "<group>"; };
 		7F3B73012209F62A00F5E67F /* DialogFlowVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogFlowVersion.swift; sourceTree = "<group>"; };
@@ -60,8 +74,6 @@
 		7F8AE1C8221CC93800F540C2 /* DialogFlowMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogFlowMetadata.swift; sourceTree = "<group>"; };
 		7F8AE1D22221735600F540C2 /* Ameiurus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ameiurus.swift; sourceTree = "<group>"; };
 		7F8AE1D422217CE300F540C2 /* ApiType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiType.swift; sourceTree = "<group>"; };
-		7F8AE1D62221929300F540C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7F8AE1D72221929300F540C2 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		7F8E083B21EF9CC8007B86B5 /* Ameiurus_melas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ameiurus_melas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8E083E21EF9CC8007B86B5 /* Ameiurus_melas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ameiurus_melas.h; sourceTree = "<group>"; };
 		7F8E083F21EF9CC8007B86B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -177,11 +189,11 @@
 		7F8E083D21EF9CC8007B86B5 /* Ameiurus-melas */ = {
 			isa = PBXGroup;
 			children = (
-				7F8E085921EFAF67007B86B5 /* Utils */,
 				7F8E085821EFAF5E007B86B5 /* Scenes */,
 				7F8E085721EFAF4F007B86B5 /* Models */,
 				7F8E083E21EF9CC8007B86B5 /* Ameiurus_melas.h */,
 				7F8E083F21EF9CC8007B86B5 /* Info.plist */,
+				7F1C270F22231DC900E1E798 /* Media.xcassets */,
 			);
 			path = "Ameiurus-melas";
 			sourceTree = "<group>";
@@ -207,17 +219,15 @@
 		7F8E085821EFAF5E007B86B5 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				7F8AE1D62221929300F540C2 /* ViewController.swift */,
-				7F8AE1D72221929300F540C2 /* ViewController.xib */,
+				7F1C270122230FD300E1E798 /* ChatViewController.swift */,
+				7F1C270722230FD300E1E798 /* ChatViewController.xib */,
+				7F1C270622230FD300E1E798 /* Message.swift */,
+				7F1C270222230FD300E1E798 /* ServerMessageCell.swift */,
+				7F1C270422230FD300E1E798 /* ServerMessageCell.xib */,
+				7F1C270522230FD300E1E798 /* UserMessageCell.swift */,
+				7F1C270322230FD300E1E798 /* UserMessageCell.xib */,
 			);
 			path = Scenes;
-			sourceTree = "<group>";
-		};
-		7F8E085921EFAF67007B86B5 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,7 +325,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F8AE1D92221929300F540C2 /* ViewController.xib in Resources */,
+				7F1C270B22230FD300E1E798 /* ServerMessageCell.xib in Resources */,
+				7F1C270A22230FD300E1E798 /* UserMessageCell.xib in Resources */,
+				7F1C271022231DC900E1E798 /* Media.xcassets in Resources */,
+				7F1C270E22230FD300E1E798 /* ChatViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,21 +419,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F1C270922230FD300E1E798 /* ServerMessageCell.swift in Sources */,
 				7F07BCDB220C48E5003F62C3 /* DialogFlowEndpoint.swift in Sources */,
 				7F8AE1CC221CC93800F540C2 /* DialogFlowStatus.swift in Sources */,
 				7F8AE1C9221CC93800F540C2 /* DialogFlowContext.swift in Sources */,
 				7F3B73022209F62A00F5E67F /* DialogFlowVersion.swift in Sources */,
+				7F1C270C22230FD300E1E798 /* UserMessageCell.swift in Sources */,
 				7F8AE1D522217CE300F540C2 /* ApiType.swift in Sources */,
 				7FC401BE220C9B69003845C2 /* BotResponse.swift in Sources */,
 				7F8AE1CB221CC93800F540C2 /* DialogFlowResult.swift in Sources */,
 				7F8AE1D32221735600F540C2 /* Ameiurus.swift in Sources */,
 				7F3B73002209F4EE00F5E67F /* DialogFlowApi.swift in Sources */,
-				7F8AE1D82221929300F540C2 /* ViewController.swift in Sources */,
 				7F3B73042209F69900F5E67F /* DialogFlowQuery.swift in Sources */,
 				7F8AE1CA221CC93800F540C2 /* DialogFlowResponse.swift in Sources */,
+				7F1C270822230FD300E1E798 /* ChatViewController.swift in Sources */,
 				7F07BCDF220C515C003F62C3 /* LanguageTag.swift in Sources */,
 				7F07BCDD220C4C00003F62C3 /* JSONModel.swift in Sources */,
 				7F3B72FB2209F35B00F5E67F /* Api.swift in Sources */,
+				7F1C270D22230FD300E1E798 /* Message.swift in Sources */,
 				7F07BCD7220C2901003F62C3 /* Endpoint.swift in Sources */,
 				7F8AE1CF221CC93800F540C2 /* DialogFlowMetadata.swift in Sources */,
 			);
