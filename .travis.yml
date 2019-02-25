@@ -3,7 +3,6 @@ language: objective-c
 branches:
   only:
     - develop
-    - master
 notifications:
   email: false
 before_install:

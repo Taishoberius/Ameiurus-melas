@@ -14,9 +14,8 @@
 # update_fastlane
 
 lane :Ameiurus do
-  run_tests(scheme: "Ameiurus")
+  run_tests(scheme: "Ameiurus-melas")
   if git_branch() == 'master'
-    slack(message: 'Hello push version: ' + get_version_number())
-    pod_push(path: 'LoremPlusPlusSwift.podspec')
+    pod_push(path: 'Ameiurus.podspec')
   end
 end
