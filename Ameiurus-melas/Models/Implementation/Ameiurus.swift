@@ -12,6 +12,7 @@ class Ameiurus {
     var api: Api
     var chatEndpoint: Endpoint
     private var apiType: ApiType
+    var botUI: BotUI = BotUI()
 
     init(api: Api, chatEndpoint: Endpoint) {
         self.api = api
@@ -44,6 +45,10 @@ class Ameiurus {
         api.call(endpoint: chatEndpoint) {
             response($0)
         }
+    }
+
+    func instantiateBotChat() -> ChatViewController {
+        return ChatViewController.instantiateBotChat(ameiurus: self)
     }
 }
 

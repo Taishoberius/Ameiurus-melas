@@ -12,6 +12,7 @@
 		7F07BCDB220C48E5003F62C3 /* DialogFlowEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07BCDA220C48E5003F62C3 /* DialogFlowEndpoint.swift */; };
 		7F07BCDD220C4C00003F62C3 /* JSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07BCDC220C4C00003F62C3 /* JSONModel.swift */; };
 		7F07BCDF220C515C003F62C3 /* LanguageTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07BCDE220C515C003F62C3 /* LanguageTag.swift */; };
+		7F08B3AD22241F7300F26414 /* BotUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F08B3AC22241F7300F26414 /* BotUI.swift */; };
 		7F1C270822230FD300E1E798 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1C270122230FD300E1E798 /* ChatViewController.swift */; };
 		7F1C270922230FD300E1E798 /* ServerMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1C270222230FD300E1E798 /* ServerMessageCell.swift */; };
 		7F1C270A22230FD300E1E798 /* UserMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F1C270322230FD300E1E798 /* UserMessageCell.xib */; };
@@ -55,6 +56,7 @@
 		7F07BCDA220C48E5003F62C3 /* DialogFlowEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogFlowEndpoint.swift; sourceTree = "<group>"; };
 		7F07BCDC220C4C00003F62C3 /* JSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModel.swift; sourceTree = "<group>"; };
 		7F07BCDE220C515C003F62C3 /* LanguageTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTag.swift; sourceTree = "<group>"; };
+		7F08B3AC22241F7300F26414 /* BotUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotUI.swift; sourceTree = "<group>"; };
 		7F1C270122230FD300E1E798 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		7F1C270222230FD300E1E798 /* ServerMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerMessageCell.swift; sourceTree = "<group>"; };
 		7F1C270322230FD300E1E798 /* UserMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserMessageCell.xib; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				7FC401BD220C9B69003845C2 /* BotResponse.swift */,
 				7F3B72FE2209F4DD00F5E67F /* DialogFlow */,
 				7F8AE1D422217CE300F540C2 /* ApiType.swift */,
+				7F08B3AC22241F7300F26414 /* BotUI.swift */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				7F8AE1D522217CE300F540C2 /* ApiType.swift in Sources */,
 				7FC401BE220C9B69003845C2 /* BotResponse.swift in Sources */,
 				7F8AE1CB221CC93800F540C2 /* DialogFlowResult.swift in Sources */,
+				7F08B3AD22241F7300F26414 /* BotUI.swift in Sources */,
 				7F8AE1D32221735600F540C2 /* Ameiurus.swift in Sources */,
 				7F3B73002209F4EE00F5E67F /* DialogFlowApi.swift in Sources */,
 				7F3B73042209F69900F5E67F /* DialogFlowQuery.swift in Sources */,
