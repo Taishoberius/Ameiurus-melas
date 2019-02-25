@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Ameiurus {
+public class Ameiurus {
     var api: Api
     var chatEndpoint: Endpoint
     private var apiType: ApiType

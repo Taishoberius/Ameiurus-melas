@@ -21,6 +21,7 @@
 		7F1C270D22230FD300E1E798 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1C270622230FD300E1E798 /* Message.swift */; };
 		7F1C270E22230FD300E1E798 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F1C270722230FD300E1E798 /* ChatViewController.xib */; };
 		7F1C271022231DC900E1E798 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1C270F22231DC900E1E798 /* Media.xcassets */; };
+		7F364D5D22249CD0004704DE /* Ameiurus_melas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8E083B21EF9CC8007B86B5 /* Ameiurus_melas.framework */; };
 		7F3B72FB2209F35B00F5E67F /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B72FA2209F35B00F5E67F /* Api.swift */; };
 		7F3B73002209F4EE00F5E67F /* DialogFlowApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B72FF2209F4EE00F5E67F /* DialogFlowApi.swift */; };
 		7F3B73022209F62A00F5E67F /* DialogFlowVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B73012209F62A00F5E67F /* DialogFlowVersion.swift */; };
@@ -32,7 +33,6 @@
 		7F8AE1CF221CC93800F540C2 /* DialogFlowMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1C8221CC93800F540C2 /* DialogFlowMetadata.swift */; };
 		7F8AE1D32221735600F540C2 /* Ameiurus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1D22221735600F540C2 /* Ameiurus.swift */; };
 		7F8AE1D522217CE300F540C2 /* ApiType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8AE1D422217CE300F540C2 /* ApiType.swift */; };
-		7F8E084521EF9CC8007B86B5 /* Ameiurus_melas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8E083B21EF9CC8007B86B5 /* Ameiurus_melas.framework */; };
 		7F8E084A21EF9CC8007B86B5 /* Ameiurus_melasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E084921EF9CC8007B86B5 /* Ameiurus_melasTests.swift */; };
 		7F8E084C21EF9CC8007B86B5 /* Ameiurus_melas.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8E083E21EF9CC8007B86B5 /* Ameiurus_melas.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FC401BE220C9B69003845C2 /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC401BD220C9B69003845C2 /* BotResponse.swift */; };
@@ -94,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F364D5D22249CD0004704DE /* Ameiurus_melas.framework in Frameworks */,
 				8AC98E3F108C6BF263A3388A /* Pods_Ameiurus_melas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,7 +103,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F8E084521EF9CC8007B86B5 /* Ameiurus_melas.framework in Frameworks */,
 				2987362BC7B62BBE0B67CCB0 /* Pods_Ameiurus_melasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
