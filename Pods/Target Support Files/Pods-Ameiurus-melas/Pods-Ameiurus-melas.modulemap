@@ -1,0 +1,6 @@
+framework module Pods_Ameiurus_melas {
+  umbrella header "Pods-Ameiurus-melas-umbrella.h"
+
+  export *
+  module * { export * }
+}
