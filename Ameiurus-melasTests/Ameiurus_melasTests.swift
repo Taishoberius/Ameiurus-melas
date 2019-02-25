@@ -7,7 +7,6 @@
 //
 
 import XCTest
-import Alamofire
 @testable import Ameiurus_melas
 
 class Ameiurus_melasTests: XCTestCase {

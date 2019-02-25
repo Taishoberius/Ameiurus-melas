@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "10135C0C24BB195874CC8BE24FE5E483"
+               BuildableName = "Toolbar.framework"
                BlueprintName = "Toolbar"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Toolbar.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
